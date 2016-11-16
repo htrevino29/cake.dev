@@ -1,0 +1,23 @@
+body {
+	background-color: #bbb;
+}
+.navbar{
+	height: 90px;
+	background-color: pink;
+}
+.navbar-brand {
+	font-size: 50px;
+	margin-top: 20px
+}
+.logo{
+	border: solid;
+	border-color: grey;
+	background-color: pink;
+	padding: 20px;
+	border-radius: 10px;
+}
+.aboutUs {
+	margin-top: 10px;
+	background-color: white;
+	padding: 20px;
+}
