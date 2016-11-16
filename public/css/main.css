@@ -1,23 +1,29 @@
 body {
-	background-color: #bbb;
+	background-color: #fff;
 }
+
 .navbar{
 	height: 90px;
-	background-color: pink;
+	background-color: #FFA9AF;
+	
 }
 .navbar-brand {
-	font-size: 50px;
-	margin-top: 20px
-}
-.logo{
-	border: solid;
-	border-color: grey;
-	background-color: pink;
-	padding: 20px;
-	border-radius: 10px;
+	font-size: 20px;
+	margin-top: 10px;
+	
 }
 .aboutUs {
 	margin-top: 10px;
 	background-color: white;
 	padding: 20px;
+}
+.name {
+	color: #ffa9af;
+	font-size: 60px;
+}
+.and {
+	font-size: 12px;
+}
+.line{
+	border-top: 2px solid black;
 }
