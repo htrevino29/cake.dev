@@ -1,10 +1,10 @@
 body {
-	background-color: black !important;
+	background-color: white !important;
 	/*font-family: 'Space Mono', monospace;*/
 	font-family: 'Special Elite', cursive;
 }
 a:visited{
-  color:white;
+  color:black;
 }
 /*top space*/
 .topSpace {
@@ -23,12 +23,12 @@ a:visited{
 
 
 }
-#para1 {
+/*#para1 {
 	color:white;
-}
+}*/
 
 .clock {
-	color:white;
+	color:black;
 	height:1.3em;
 	font-size: 1.8em;
 	padding: 3px;
@@ -37,8 +37,8 @@ a:visited{
 }
 
 .mainText {
-	background-color: black;
-	color:white;
+	/*background-color: black;*/
+	color:black;
 	height:1.3em;
 	font-size: 1em;
 	padding: 5px;
@@ -53,6 +53,7 @@ a:visited{
 
 .mainTextP:hover{
 	background-color: red;
+	color:white;
 	padding-top: 3px;
 	padding-left: 3px;
 	padding-right: 3px;
