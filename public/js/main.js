@@ -8,6 +8,6 @@ var d = new Date(),
     months = ['1','2','3','4','5','6','7','8','9','10','11','12'],
     days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 return months[d.getMonth()]+'/'+d.getDate()+'/'+d.getFullYear()+' '+hours+':'+minutes+ampm+' CST';
-alert('fuck');
+
 };
 

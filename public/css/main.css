@@ -1,10 +1,11 @@
 body {
 	background-color: black !important;
-	font-family: 'Space Mono', monospace;
+	/*font-family: 'Space Mono', monospace;*/
+	font-family: 'Special Elite', cursive;
 }
 /*top space*/
 .topSpace {
-	height:300px !important;
+	height:300px;
 }
 
 /*logo*/
@@ -14,11 +15,13 @@ body {
     color: white;
     height: 1.3em;
     font-size: 3em;
-    padding: 3px;
+    padding: 5px;
+    font-family: 'Space Mono', monospace;
+    
+
 }
 #para1 {
 	color:white;
-	/*font-size: 1.8em;*/
 }
 
 .clock {
@@ -26,6 +29,8 @@ body {
 	height:1.3em;
 	font-size: 1.8em;
 	padding: 3px;
+	margin-top: 5px;
+	font-family: 'Space Mono', monospace;
 }
 
 .mainText {
@@ -34,18 +39,27 @@ body {
 	height:1.3em;
 	font-size: 1em;
 	padding: 5px;
-	margin-top: 20px;
+	margin-top: 16px;
+
+
+	
 }
+.mainTextP {
+	padding-left: 3px !important;
+}
+
 .mainTextP:hover{
 	background-color: red;
-	/*color:white;*/
-	/*padding:5px;*/
+	padding-top: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	
 	
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
     .topSpace {
-    	height:25vh !important;
+    	height:25vh;
     }
     .logo {
 		background-color: red;
@@ -57,11 +71,40 @@ body {
 	.clock {
 		color:white;
 		height:1.3em;
-		font-size: .7em;
+		font-size: .em;
 		padding: 12px;
 	}
 	.mainText {
 		margin-top: 5px;
 		font-size: 1em;
-		
+
 	}
+}
+
+@media only screen and (max-width: 750px) {
+    .topSpace {
+        height:25vh;
+    }
+    .clock {
+		color:white;
+		height:1.3em;
+		font-size: 1em;
+		padding: 12px;
+		margin-bottom: 10px;
+	}
+	.mainText {
+		margin-top: 8px;
+		font-size: 1em;
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
