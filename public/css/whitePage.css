@@ -4,7 +4,7 @@ body {
 	font-family: 'Special Elite', cursive;
 }
 
-body::-webkit-scrollbar {
+/*body::-webkit-scrollbar {
     width: 1em;
 }
  
@@ -15,16 +15,17 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
-}
+}*/
 
 
 
 a:visited{
   color:black;
 }
+
 /*top space*/
 .topSpace {
-	height:300px;
+	height:15vh;
 }
 
 /*logo*/
@@ -86,8 +87,16 @@ a:visited{
 	max-width: 300px;
 	max-height: 400px;
 	overflow: auto;
-	
 }
+
+.formBtn {
+
+	background-color: red;
+	color:white;
+    padding: 5px;
+    font-family: 'Space Mono', monospace;
+}
+
 @media only screen and (max-width: 450px) {
     .topSpace {
     	height:25vh;

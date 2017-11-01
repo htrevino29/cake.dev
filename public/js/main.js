@@ -11,3 +11,14 @@ return months[d.getMonth()]+'/'+d.getDate()+'/'+d.getFullYear()+' '+hours+':'+mi
 
 };
 
+
+
+// mobile responsive JS class swaps for bootstrap.
+$(window).resize(function () {
+    var viewportWidth = $(window).width();
+    if (viewportWidth < 750) {
+            $("#aboutImg").removeClass("pull-right");
+            $(".aboutImg").addClass("text-center");
+            $("#textBoxDiv").removeClass("textBox");
+    }
+});
