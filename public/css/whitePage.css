@@ -17,10 +17,16 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
 }*/
 
-
+a:hover {
+	text-decoration:none;
+}
 
 a:visited{
   color:black;
+}
+#aboutImg {
+	max-width: 300px;
+	max-height: 400px;
 }
 .clicky:hover {
 	color:white;
@@ -139,7 +145,7 @@ a:visited{
 
 @media only screen and (max-width: 450px) {
     .topSpace {
-    	height:25vh;
+    	height:20vh;
     }
     .logo {
 		background-color: red;
@@ -163,7 +169,7 @@ a:visited{
 
 @media only screen and (max-width: 750px) {
     .topSpace {
-        height:25vh;
+        height:10vh;
     }
     .clock {
 		
