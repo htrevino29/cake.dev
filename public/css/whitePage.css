@@ -22,6 +22,10 @@ body::-webkit-scrollbar-thumb {
 a:visited{
   color:black;
 }
+.clicky:hover {
+	color:white;
+	text-decoration:none;
+}
 
 /*top space*/
 .topSpace {
@@ -96,6 +100,42 @@ a:visited{
     padding: 5px;
     font-family: 'Space Mono', monospace;
 }
+.itemBoxes {
+	padding:2px;
+}
+.itemImgBox {
+	width:100%;
+}
+
+
+
+
+.image {
+    position:relative;
+    width:100%;
+    
+}
+.image img {
+    width:100%;
+    vertical-align:top;
+}
+.image:after {
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.7);
+    opacity:1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.image:hover:after {
+    opacity:0.1;
+}
+
+
+
+
 
 @media only screen and (max-width: 450px) {
     .topSpace {
@@ -136,6 +176,10 @@ a:visited{
 		margin-top: 8px;
 		font-size: 1em;
 
+	}
+	/*mobile makes images visible*/
+	.image:after {
+		opacity:0.1;
 	}
 }
 
