@@ -62,6 +62,7 @@ a:visited{
 a:hover {
 	text-decoration: none;
 }
+
 .clicky:hover {
 	color:white;
 	text-decoration:none;
